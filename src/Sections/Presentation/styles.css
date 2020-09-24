@@ -1,0 +1,29 @@
+.presentation-container {
+  width: 100vw;
+  height: 34.12rem;
+  background-color: #f6f6f6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.presentation-title {
+  font-size: 2.18rem;
+
+  color: #FF5555;
+}
+
+.presentation-content {
+  width: 43rem;
+  height: 24.12rem;
+
+  border-radius: .62rem;
+  overflow: hidden;
+}
+
+.presentation-content iframe {
+  width: 100%;
+  height: 100%;
+}

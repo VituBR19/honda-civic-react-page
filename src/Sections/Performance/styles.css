@@ -1,0 +1,24 @@
+.performance-container {
+  width: 100vw;
+  height: 37.12rem;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.performance-title {
+  font-size: 2.18rem;
+
+  color: #FF5555;
+}
+
+.performance-description {
+  font-size: .87rem;
+}
+
+.performance-content {
+  width: 77vw;
+}

@@ -1,0 +1,60 @@
+.test-drive-container {
+  width: 100vw;
+  height: 33.12rem;
+
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;  
+}
+
+.test-drive-title {
+  font-size: 2.18rem;
+
+  color: #FF5555;
+}
+
+.test-drive-content {
+  width: 43rem;
+  height: 24.12rem;
+
+  border-radius: .62rem;
+  overflow: hidden;
+}
+
+.test-drive-content iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.test-drive-actions {
+  width: 21.25rem;
+  height: 2.56rem;
+
+  background-color: #c4c4c4;
+
+  border-radius: 3.12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.test-drive-actions .actions-item {
+  font-size: 1.12rem;
+  color: #5E5E5E;
+
+  cursor: pointer;
+}
+
+.selected {
+  font-size: 1.56rem!important;
+  color: #000!important;
+  font-weight: 500!important;
+
+  text-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.25);
+  transition: all .1s ease-in-out;
+
+}

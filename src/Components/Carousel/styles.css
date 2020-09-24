@@ -1,0 +1,57 @@
+
+.carousel-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-items {
+  width: 50.25rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+  width: 6.5rem;
+}
+
+.pagination-item {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.inactive {
+  background: #ccc;
+}
+.actived {
+  background: #ff6347;
+}
+
+.arrows {
+  width: 2rem;
+  height: 2rem;
+
+  background-color: transparent;
+  border: 0;
+
+  margin: auto;
+
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  outline: none;
+}
+
+.arrows:hover {
+  transform: scale(1.1);
+}

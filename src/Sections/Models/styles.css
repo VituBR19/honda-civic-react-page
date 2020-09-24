@@ -1,0 +1,33 @@
+.models-container {
+  max-width: 79.6rem;
+  height: 23rem;
+  margin: auto;
+
+  position: relative;
+  top: -1.42rem;
+
+  display: flex;
+  justify-content: space-around;
+
+  z-index: 10;
+}
+
+.model-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 13.5rem;
+  height: 20rem;
+}
+
+.model-card ul {
+  height: 11.75rem;
+
+  font-size: .75rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
