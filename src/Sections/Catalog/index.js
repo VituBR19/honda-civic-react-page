@@ -8,7 +8,7 @@ function Catalog() {
   return (
     <section className="catalog-container">
       <div className="catalog car">
-        <img src={ car } alt="Catalogo do veiculo"/>
+        <img src={ car } loading="lazy" alt="Catalogo do veiculo"/>
         
         <div className="catalog-info">
           <h2>Catálogo do Veículo</h2>
@@ -23,7 +23,7 @@ function Catalog() {
       </div>
 
       <div className="catalog accessories">
-        <img src={ accessories } alt="Catalogo do veiculo"/>
+        <img src={ accessories } loading="lazy" alt="Catalogo do veiculo"/>
         
         <div className="catalog-info">
           <h2>Catálogo de Acessórios</h2>

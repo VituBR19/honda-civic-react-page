@@ -7,7 +7,7 @@ function Models() {
     <div className="models-container">
       {modelsData.map((model) => (
         <div className="model-card" key={ model.name }>
-          <img src={model.img} alt={`Civc ${model.name}`} />
+          <img src={model.img} loading="lazy" alt={`Civc ${model.name}`} />
           <h3>{model.name}</h3>
           <ul>
             <li>{model.text1}</li>

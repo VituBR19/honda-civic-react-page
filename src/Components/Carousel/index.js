@@ -31,7 +31,7 @@ function Carousel({ datas, itemsToShow }) {
     const pointer = type === consts.PREV ? leftArrow : rightArrow
     return (
       <button className="arrows" onClick={onClick} disabled={isEdge}>
-        <img src={pointer} alt='arrows'/>
+        <img src={pointer} loading="lazy" alt='arrows'/>
       </button>
     )
   }
