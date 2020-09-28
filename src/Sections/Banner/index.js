@@ -10,7 +10,7 @@ const Banner = () => {
   const priceAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 3000,
+    delay: 2000,
     config: { duration: 2000 },
   });
 

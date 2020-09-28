@@ -5,7 +5,7 @@ import qualityData from './qualityData'
 
 function Quality() {
   return (
-    <section className="quality-container" id="quality">
+    <section className="quality-container" id="quality" data-aos="fade-up">
         <h2 className="quality-title">Qualidade comprovada</h2>
         <p className="quality-description">Tudo no novo Civic foi pensado para seu conforto</p>
       <div className="quality-content">

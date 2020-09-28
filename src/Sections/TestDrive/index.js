@@ -33,7 +33,7 @@ function TestDrive() {
   }
 
   return (
-    <section className="test-drive-container" id="test-drive">
+    <section className="test-drive-container" id="test-drive" data-aos="fade-left">
       <h2 className="test-drive-title">Test Drive Virtual</h2>
 
       <div className="test-drive-actions">

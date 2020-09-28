@@ -6,7 +6,7 @@ import inside from "../../assets/images/gallery-interior-civic-2020.jpg";
 
 function Gallery() {
   return (
-    <section className="gallery-container" id="gallery">
+    <section className="gallery-container" id="gallery" data-aos="fade-right">
       <h2 className="gallery-title">Galeria</h2>
       <div className="gallery-content">
         <div className="gallery-item">

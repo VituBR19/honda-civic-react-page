@@ -21,7 +21,7 @@ function Header() {
   const headerAnimation = useSpring({
     opacity: 1,
     from: { opacity: 0 },
-    delay: 2000,
+    delay: 1000,
   });
 
   window.addEventListener("scroll", changeBackground);
