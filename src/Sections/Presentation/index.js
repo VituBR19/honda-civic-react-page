@@ -4,7 +4,7 @@ import './styles.css';
 function Presentation() {
   return (
     <section className="presentation-container" id="presentation" data-aos="fade-right">
-      <h2 className="presentation-title">Novo Civc 2020 - Evoluir Sempre</h2>
+      <h2 className="presentation-title">Novo Civic 2020 - Evoluir Sempre</h2>
 
       <div className="presentation-content">
         <iframe 
