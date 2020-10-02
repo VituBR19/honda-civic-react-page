@@ -3,13 +3,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-* {
   font-family: 'Montserrat', sans-serif;
 }
 
 .App, #root, html, body {
   width: 100vw;
-  height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }

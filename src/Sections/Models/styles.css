@@ -8,6 +8,7 @@
 
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   z-index: 10;
 }
@@ -30,4 +31,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+@media (max-width: 1080px) {
+  .models-container {
+    height: 40rem;
+  }
+
+  .model-card {
+    margin-bottom: 2rem;
+  }
 }

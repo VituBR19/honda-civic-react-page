@@ -43,6 +43,7 @@ function Carousel({ datas, itemsToShow }) {
       renderArrow={ arrows }
       renderPagination={ pagination }
       itemPadding={[10, 2]}
+      preventDefaultTouchmoveEvent={ true }
       className="carousel-items"
     >
       { datas.map( data => (

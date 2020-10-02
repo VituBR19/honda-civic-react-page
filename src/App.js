@@ -11,6 +11,7 @@ import Quality from "./Sections/Quality";
 import Gallery from "./Sections/Gallery";
 import Catalog from "./Sections/Catalog";
 import Footer from "./Sections/Footer";
+import ImageSlider from "./Components/ImageSlider";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
